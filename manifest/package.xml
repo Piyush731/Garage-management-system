@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+     <members>Customer_Detail__c</members>
+     <members>Appointment__c</members>
+     <members>Billing_details_and_feedback__c</members>
+     <members>Service_records__c</members> 
+      <members>*</members> 
+      <name>CustomObject</name>
+     </types>
+
+     <!-- Apex Classes -->
+    <types>
+        <members>*</members> <!-- Use specific class names if needed -->
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>*</members> <!-- Use specific trigger names if needed -->
+        <name>ApexTrigger</name>
+    </types> 
+
+    <!-- Lightning Components -->
+    <types>
+        <members>*</members> <!-- Use specific component names if needed -->
+        <name>AuraDefinitionBundle</name>
+    </types>
+
+    <!-- Lightning Web Components -->
+    <types>
+        <members>*</members> <!-- Use specific component names if needed -->
+        <name>LightningComponentBundle</name>
+    </types> 
+
+    <!-- Page Layouts -->
+    <types>
+        <members>*</members> <!-- Use specific layout names if needed -->
+        <name>Layout</name>
+    </types>
+
+    <!-- Record Types -->
+    <types>
+        <members>*</members> <!-- Use specific record type names if needed -->
+        <name>RecordType</name>
+    </types>
+
+    <!-- Validation Rules -->
+    <types>
+        <members>*</members> <!-- Use specific rule names if needed -->
+        <name>ValidationRule</name>
+    </types>
+
+    <!-- Workflow Rules -->
+    <types>
+        <members>*</members> <!-- Use specific workflow rule names if needed -->
+        <name>WorkflowRule</name>
+    </types>
+
+    <!-- Process Builder -->
+    <types>
+        <members>*</members> <!-- Use specific process names if needed -->
+        <name>Flow</name>
+    </types>
+
+    <!-- Approval Processes -->
+    <types>
+        <members>*</members> <!-- Use specific approval process names if needed -->
+        <name>ApprovalProcess</name>
+    </types>
+
+    <!-- Assignment Rules -->
+    <types>
+        <members>*</members> <!-- Use specific rule names if needed -->
+        <name>AssignmentRule</name>
+    </types>
+
+    <!-- Email Templates -->
+    <types>
+        <members>*</members> <!-- Use specific template names if needed -->
+        <name>EmailTemplate</name>
+    </types>
+
+    <!-- Static Resources -->
+    <types>
+        <members>*</members> <!-- Use specific resource names if needed -->
+        <name>StaticResource</name>
+    </types>
+
+    <!-- Custom Metadata Records -->
+    <types>
+        <members>*</members> <!-- Use specific record names if needed -->
+        <name>CustomMetadata</name>
+    </types>
+
+    <!-- Custom Permissions -->
+    <types>
+        <members>*</members> <!-- Use specific permission names if needed -->
+        <name>CustomPermission</name>
+    </types>
+
+    <!-- App Menu -->
+    <types>
+        <members>*</members> <!-- Use specific app menu names if needed -->
+        <name>AppMenu</name>
+    </types>
+
+    <!-- Named Credentials -->
+    <types>
+        <members>*</members> <!-- Use specific named credential names if needed -->
+        <name>NamedCredential</name>
+    </types>
+
+    <!-- Remote Site Settings -->
+    <types>
+        <members>*</members> <!-- Use specific remote site settings names if needed -->
+        <name>RemoteSiteSetting</name>
+    </types>
+
+    <version>54.0</version>
+</Package>

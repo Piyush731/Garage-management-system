@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Appointment__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Appointment</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Value does not match the criteria.</errorMessage>
+        <filterItems>
+            <field>Appointment__c.LastModifiedDate</field>
+            <operation>lessThan</operation>
+            <valueField>Appointment__c.CreatedDate</valueField>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Appointment__c</referenceTo>
+    <relationshipLabel>Service records</relationshipLabel>
+    <relationshipName>Service_records</relationshipName>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
